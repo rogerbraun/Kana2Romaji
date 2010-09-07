@@ -18,7 +18,7 @@ class String
   def to_romaji!
     # Zum Thema gsub siehe http://ruby-doc.org/core/classes/String.html#M000817
     KANA.each { |kana, romaji| self.gsub!(kana,romaji)}
-    # Kana ist ein Hash, daher gibt es hier zwei Argumente: Der Schlüssel (also etwa "あ") und den zugehörigen Wert (also etwa "a")
+    # KANA ist ein Hash, daher gibt es hier zwei Argumente: Der Schlüssel (also etwa "あ") und den zugehörigen Wert (also etwa "a")
     self
   end
 
