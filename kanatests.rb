@@ -16,7 +16,7 @@ class Kana2RomajiTest < Test::Unit::TestCase
   end
 
   def test_complicated_kana
-    assert_equal "がぎぐげご", "gagigugego", "Nigorierte ka-Reihe wird nicht richtig behandelt!"
+    assert_equal "がぎぐげご".to_romaji, "gagigugego", "Nigorierte ka-Reihe wird nicht richtig behandelt!"
   end
 
 end
