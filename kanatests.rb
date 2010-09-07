@@ -24,6 +24,7 @@ class Kana2RomajiTest < Test::Unit::TestCase
     assert_equal "わからない".to_romaji, "wakaranai"
     assert_equal "おもしろい".to_romaji, "omoshiroi"
     assert_equal "くびつり".to_romaji, "kubitsuri"
+    assert_equal "こころざし".to_romaji, "kokorozashi"
   end
 
 end
