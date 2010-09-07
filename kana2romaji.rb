@@ -12,6 +12,7 @@ class String
   end
 
   def to_romaji!
+    # Zum Thema gsub siehe http://ruby-doc.org/core/classes/String.html#M000817
     KANA.each { |kana, romaji| self.gsub!(kana,romaji)}
     self
   end
